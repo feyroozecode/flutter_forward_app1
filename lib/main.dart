@@ -15,7 +15,10 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Scaffold(body: Text("Bonjour je suis la 1er version")),
+      home: const Scaffold(
+          body: Center(
+              child: Text("Bonjour je suis la 1er version",
+                  style: TextStyle(fontSize: 24)))),
     );
   }
 }
